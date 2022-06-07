@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tung Shin Travel</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,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"
+      type="image/x-icon"
+    />
+    <style>
+      nav a:hover {
+        color: white;
+        background-color: #db7093;
+        font-weight: bold;
+      }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-arial">
+    <div class="container">
+      <header class="header mb-10">
+        <h1 class="text-center text-white">Tung Shin Travel</h1>
+      </header>
+      <nav class="nav bg-green mb-10">
+        <a
+          href="index.html"
+          class="bg-gray d-inline-block text-center deco-none w-h-50"
+          >Trang chủ</a
+        >
+        <a
+          href="dev.html"
+          class="bg-gray po-580 d-inline-block text-center deco-none w-h-50"
+          >Anime</a
+        >
+        <a
+          href="dev-2.html"
+          class="bg-gray po-600 d-inline-block deco-none text-center w-h-50"
+          >Thể Thao</a
+        >
+      </nav>
+    </div>
+    <div class="noi-dung bg-gray mg-auto d-block">
+      <div class="p-40 p-bot-10">
+        <h2 class="text-center">
+          10 Địa điểm du lịch Hà Giang – Bạn không thể bỏ qua
+        </h2>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/dia-diem-du-lich-ha-giang.jpg"
+          alt=""
+        />
+
+        <p>
+          Sau một mùa hè thả hồn với biển thì mùa thu và đông cũng là khoảng
+          thời gian những người yêu du lịch tìm cho mình những miền đất du lịch
+          mới. Và một trong những vùng đất du lịch đẹp đến nao lòng lại mang
+          nhiều sắc thái trong năm không đâu xa chính là vùng Tây Bắc. Ai yêu du
+          lịch chắc sẽ không xa lạ gì với những thời điểm nổi như cồn ở Tây Bắc
+          như: mùa lúa chín, mùa hoa tam giác mạch và mùa hoa mận trắng, hoa cải
+          trắng. Tháng 9, tháng 10 là thời điểm lúa chín của Tây Bắc, Sapa, Mù
+          Cang Chải và Hoàng Su Phì – Hà Giang là những địa điểm thiên đường của
+          lúa chín và ruộng bậc thang. Sau mùa lúa chín thì dân phượt và những
+          người yêu du lịch lại có chuyến hành trình về Hà Giang, quê hương của
+          loài hoa tam giác mạch nở vào mỗi tháng 11 hàng năm, bắt đầu cho những
+          chuỗi ngày mùa đông lạnh lẽo. Trong bài này mình sẽ hướng dẫn các bạn
+          cung đường di chuyển lên Hà Giang và 10 địa điểm du lịch Hà Giang (chủ
+          yếu là những địa điểm có nhiều hoa tam giác mạch). Đương nhiên lên Hà
+          Giang thì có 3 loại phương tiện di chuyển từ Hà Nội bao gồm: xe khách,
+          xe máy và ô tô. Nếu đi xe khách kết hợp với xe máy, tức là bạn đem xe
+          máy của mình theo thì hay liên hệ với nhà xe trước, đặt một chỗ trong
+          cốp xe cho xế của bạn. Nhớ đổ ít xăng trước khi đi thôi vì sau đem xe
+          vào cốp xe nhà xe cũng sẽ rút hết xăng của bạn để đảm bảo an toàn. Lên
+          tới TP. Hà Giang là tha hồ vi vu với xế dong duổi khắp nơi rồi. Nếu đi
+          xe khách sau lên Hà Giang thuê xe khoảng 200k/1xe/1 ngày, thuê ở Đồng
+          Văn 250k/1xe/1 ngày
+        </p>
+
+        <h3>Đi bằng ô tô và xe máy tự túc từ trung tâm Hà Nội:</h3>
+
+        <p>
+          Tuyến đi thứ nhất: Hà Nội – Vĩnh Phúc – Việt Trì – Phú Thọ – Tuyên
+          Quang – Hà Giang. Tuyến đi thứ hai: Hà Nội – Sơn Tây – Cầu Trung Hà –
+          Cổ Tiết – Cầu Phong Châu – Phú Thọ – Đoan Hùng – Tuyên Quang – Hà
+          Giang. Tổng quãng đường khoảng 300-320 km tính từ Hà Nội đi Hà Giang.
+          Tùy cung đường các bạn đi sẽ được ngắn hơn 20-30 km.
+        </p>
+
+        <p>
+          Từ Hà Giang sẽ đi theo cung đường lên Đồng Văn, các bạn nên đi đường:
+          Hà Nội đến Hà Giang (300 – 320 km) (nghỉ 1 đêm) – Quản Bạ (46 km) –
+          Yên Minh (50 km) (nghỉ 1 đêm) – phố cổ Đồng Văn (50 km) (nghỉ 1 đêm) –
+          Mèo Vạc (30 km). Đây là lịch trình dành cho những bạn thực sự có thời
+          gian, dành 4 ngày 3 đêm cho chuyến đi Hà Giang, với những ai không có
+          thời gian có thể tự điều chỉnh lộ trình cho phù hợp. Đường Hà Giang
+          khá nguy hiểm, có những đoạn thì sỏi đá gồ ghề, có đoạn thì một bên là
+          núi một bên là vực, con đường Hạnh Phúc cũng có không ít đoạn đường
+          khá xấu. Vì thế, các bạn hạn chế đi đêm, đi khi thời tiết xấu và nên
+          dành một đêm ở thị trấn Đồng Văn, có rất nhiều điều thú vị nơi phố núi
+          này.
+        </p>
+
+        <h3>
+          10 Địa điểm du lịch Hà Giang, những điểm đẹp nhất cao nguyên đá Đồng
+          Văn
+        </h3>
+
+        <p>
+          Mình sẽ tổng kết lần lượt các điểm theo lộ trình để các bạn có thể dễ
+          dàng “note” vào lịch trình của mình nhé. Ngày thứ nhất, tới Hà Giang,
+          ăn trưa tại Hà Giang. Cam Hà Giang trồng nhiều ở đoạn đường cuối Tuyên
+          Quang, đầu Hà Giang. Nếu qua đây vào mùa cam thì bạn nên ghé vào vườn
+          tham quan, vụ cam thường thu hoạch vào mùa đông, gần Tết và sau Tết âm
+          lịch khoảng 1 tháng sẽ hết mùa. Từ thành phố Hà Giang đi theo quốc lộ
+          4C, vượt đèo Bắc Sum. Đèo Bắc Sum là con đèo đầu tiên bạn sẽ được
+          chinh phục khi đến Hà Giang. Đèo Bắc Sum có nhiều hoa cúc dại mọc vàng
+          dải rắc 2 bên đường. Qua khoảng 45 km là đến thị trấn Tam Sơn, huyện
+          Quản Bạ, nơi đây có thắng cảnh núi đôi Quảng Bạ.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/rung-thong-yen-minh.jpg"
+          alt=""
+        />
+
+        <p>Rừng thông Yên Minh</p>
+
+        <h4>1. Rừng thông Yên Minh</h4>
+
+        <p>
+          Chạy qua xã Cán Tỷ chạy tới rừng thông Yên Minh, đi qua núi đôi Quảng
+          Bạ khoảng 40 km, qua những cung đường ngoằn nghèo sẽ tới rừng thông
+          Yên Minh, được mệnh danh là Đà Lạt thứ 2 của Việt Nam. Nơi đây, những
+          cây thông xanh rì, vươn cao vút giữa núi đồi rì rào trong gió sẽ khiến
+          xao lòng những người lữ khách qua đây.
+        </p>
+
+        <h4>2. Phó Bảng – Yên Minh</h4>
+
+        <p>
+          Chạy qua xã Cán Tỷ chạy tới rừng thông Yên Minh, đi qua núi đôi Quảng
+          Bạ khoảng 40 km, qua những cung đường ngoằn nghèo sẽ tới rừng thông
+          Yên Minh, được mệnh danh là Đà Lạt thứ 2 của Việt Nam. Nơi đây, những
+          cây thông xanh rì, vươn cao vút giữa núi đồi rì rào trong gió sẽ khiến
+          xao lòng những người lữ khách qua đây. Phó Bảng là nơi có những ngôi
+          nhà cổ với kiến trúc độc đáo. Những thửa ruộng nằm cạnh hai bên đường
+          đi ở Phó Bảng ngập tràn hoa tam giác mạch. Trên đường đến Phó Bảng ,
+          trên đường đi bạn sẽ đi qua thung lũng hoa hồng và một cánh đồng tam
+          giác mạch lớn ven đường. Từ Phố Bảng sẽ đi tới Lũng Cẩm, nơi có thung
+          lũng Sủng Là bình yên, xinh đẹp.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/21983915254_b144c66ff4_c.jpg"
+          alt=""
+        />
+
+        <h4>3. Thung lũng Sủng Là</h4>
+
+        <p>
+          Sủng Là được biết đến như một trong những địa điểm du lịch Hà Giang
+          nổi tiếng với các vườn hoa khoe sắc. Thung lũng Sủng là được mệnh danh
+          là bông hoa giữa cao nguyên đá, Sủng Là cuốn hút du khách bởi vẻ đẹp
+          mộc mạc, yên bình của những mái nhà tường trình nhỏ nhắn, những ruộng
+          ngô xanh mướt, những dải hoa tam giác mạch dịu dàng. Khung cảnh của
+          Sủng Là là nét đẹp đặc trưng của miền sơn cước. Trong thung lũng Sủng
+          Là có làng Lũng Cẩm, nơi mà cuộc sống vẫn còn nguyên vẹn bản sắc như:
+          đeo gùi đi lấy rau, địu con, dệt lanh,.. Lũng Cẩm hiện là nơi cư trú
+          của hơn 60 hộ dân, chủ yếu là dân tộc Lô Lô, Mông và Hán. Trong đó,
+          bản Lô Lô là nơi mang màu sắc mộc mạc, xưa cũ hơn cả. Nơi đây còn được
+          biết đến bởi đã từng làm bối cảnh cho bộ phim “chuyện của Pao” trong
+          ngôi nhà gần 100 năm tuổi. Ngôi nhà trải qua quá nhiều thăng trầm của
+          thời gian nên vừa qua đã được tu sửa lại. Tuy vậy, ngôi nhà trăm tuổi
+          của bản Lô Lô vẫn giữ nguyên nét đẹp mộc mạc bình dị bởi cuộc sống của
+          người dân nơi đây. Đến bản Lô Lô, tới “ngôi nhà của Pao” sẽ băng qua
+          một con đường trải dài hoa tam giác mạch, vào tháng 1,2 hàng năm xung
+          quanh nhà của Pao là hoa đào hoa mận, hoa lê,.. thấp thoáng sau tán
+          hoa là ngôi nhà trình tường nhuốm màu của thời gian. Lối vào nhà của
+          Pao cũng có 1 thung lũng hoa hồng rất đẹp. Tiếp theo tới dinh thự Họ
+          Vương ở Sủng Là.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/dinh-ho-vuong-ha-giang.jpg"
+          alt=""
+        />
+
+        <h4>4. Dinh Thự họ Vương</h4>
+
+        <p>
+          Dinh thự họ Vương nằm trên đỉnh một quả đồi nhỏ, nơi đây cửa vào có
+          hàng cây samu cổ thụ, thẳng tắp. Đi vào trong là Dinh thự họ Vương của
+          vua Mèo, một gia tộc giàu có nhất vùng nhờ bán thuốc phiện thời trước.
+          Dinh thự mang kiến trúc độc đáo, mang sự ảnh hưởng của ba nền kiến
+          trúc: Trung Quốc, người dân tộc Mông và Pháp. Khu dinh thự này được
+          Nhà nước công nhận là Di tích quốc gia năm 1993. Năm 2004, gia đình họ
+          Vương quyết định cống hiến dinh thự này cho Nhà nước bảo tồn. Đứng
+          trên dinh thự nhìn xuống thung lũng heo hút phía dưới mới thấy được sự
+          bề thế của dinh thự. Nếu bạn tới đây vào ngày phiên chợ Sà Phìn ngay
+          gần dinh họ Vương, họp vào ngày Tỵ và Hợi thì nhớ ghé qua. Từ Dinh Họ
+          Vương về Đồng Văn là 14km. Giá vé vào tham quan dinh thự họ Vương:
+          20.000 đồng.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/cot-co-lung-cu.jpg"
+          alt=""
+        />
+
+        <h4>5. Cột cờ Lũng Cú.</h4>
+
+        <p>
+          Từ dinh thự họ Vương, bạn quay trở lại ngã 3 rẽ đi qua Phố Là, Ma Lé
+          để đến cột cờ Lũng Cú – nơi đặt nét bút đầu tiên trên bản đồ hình chữ
+          S. Ngay trên đường từ Ma Lé vào Lũng Cú sẽ thấy một cánh đồng tam giác
+          mạch lớn trên sườn đồi. Đây là nơi trồng nhiều tam giác mạch nhất cho
+          đến hiện tại. Lũng Cú ở trên độ cao 2000 m so với mực nước biển, Lũng
+          Cú là nơi duy nhất có người Lô Lô sinh sống. Đứng trên cột cờ Lũng Cú,
+          nhìn lá cờ Tổ quốc phấp phới bay trong gió, tận mắt thấy điểm đầu tiên
+          đặt nét bút vẽ nên bản đồ hình chữ S là lúc lòng tự hào dân tộc và
+          tình yêu quê hương đất nước dâng tràn. Đứng trên cột cờ Lũng Cú ngắm
+          hoàng hôn, sau đó quay xuống thị trấn Đồng Văn nghỉ lại Đồng Văn một
+          tối. Bởi người ta thường truyền tai nhau rằng, lên Hà Giang mà không
+          ngủ lại Đồng Văn thì chưa gọi là đi Hà Giang.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/cot-co-lung-cu.jpg"
+          alt=""
+        />
+
+        <h4>6. Phố cổ Đồng Văn</h4>
+
+        <p>
+          Phố cổ nằm lọt thỏm giữa thung lũng với bốn bề núi đá bao bọc xung
+          quanh. Khu phố cổ vẻn vẹn 40 nóc nhà nằm xếp vào nhau dưới núi đá.
+          Buổi tối, phố cổ tĩnh lặng, trầm mặc. Nếu tới phố cổ vào tối 14,15,16
+          âm lịch hàng tháng bạn sẽ thấy một phố cổ rất khác với đèn lồng đỏ,
+          ngoài ra còn có một số hoạt động như trưng bày thổ cẩm các dân tộc,
+          trình diễn và bán các món ăn truyền thống của các dân tộc vô cùng vui
+          nhộn. Sáng sớm, bức tranh phố cổ là sự pha trộn đến tài tình hai tông
+          màu: màu vàng rực của nắng và màu xám của những ngôi nhà cổ. Từ trên
+          cao nhìn xuống, bên ba dãy chợ xếp thành hình chữ U lợp ngói âm dương
+          là hai dãy phố cổ chạy vào chân núi. Kiến trúc ở đây phổ biến là nhà
+          hai tầng trình tường. Sáng sớm, ngồi dưới một mái nhà nhỏ, thưởng thức
+          ly cà phê nóng giữa miền sơn cước là một trải nghiệm thú vụ vô cùng,
+          sau đó những món ăn đặc trưng của dân tộc để lấy sức lên đường. Từ
+          Đồng Văn vượt đèo Mã Pì Lèng là đến với huyện Mèo Vạc.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/Pho-co-dong-van.jpg"
+          alt=""
+        />
+
+        <h4>7. Đèo Mã Pí Lèng</h4>
+
+        <p>
+          Từ Đồng văn đi Mèo Vạc khoảng 20 km, đi qua con đường Hạnh Phúc (đèo
+          Mã Pí Lèng) Đèo Mã Pí Lèng nằm trên con đường Hạnh Phúc nối liền Đồng
+          Văn và Mèo Vạc. Đây được biết đến là cung đường đẹp nhất vùng cao
+          nguyên đá. Nếu tới Hà Giang một lần thử được cầm lái chạy xe chênh
+          vênh giữa một bên là núi đá cao ngút trời, một bên là vực sâu thăm
+          thẳm và ngắm nhìn dòng sông Nho Quế uốn lượn như một dải sẽ khiến bạn
+          trải qua những cung bậc cảm xúc vô cùng tuyệt vời. Đó như một thử
+          thách lớn với những người yêu thích sự mạo hiểm. Đứng trên cao nhìn ra
+          xa là ngàn lớp xám xịt của núi, trắng xóa huyền ảo của mây, thẳm sâu
+          hun hút của vực. Nơi đây, đặc biệt còn có mỏm đá nhô ra trên đèo Mã Pì
+          Lèng, đây chính là nơi cảm nhận được trọn vẹn sự hùng vĩ bao la của
+          núi rừng miền biên giới phía bắc. Ở nơi đây bạn mới thấy mình nhỏ bé
+          biết bao và cảm nhận được vẻ đẹp vô cùng của đất nước quê hương. Qua
+          đèo sẽ đến huyện Mèo Vạc, tại đây bạn có thể rẽ về Yên Minh về TP.Hà
+          Giang hoặc qua Mèo Vạc về Bắc Mê (đường này thì xa lắm).
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/deo-ma-pi-leng.jpg"
+          alt=""
+        />
+
+        <h4>8. Chợ lùi (chợ Phiên) Hà Giang</h4>
+        <p>
+          Hà Giang giữ nguyên bản sắc dân tộc do vậy những phiên chợ lùi (chợ
+          Phiên) vẫn diễn ra theo đúng lịch có từ trước đến nay. Tham gia những
+          phiên chợ du khách sẽ phần nào cảm nhận đc hơi thở và cái hồn của đồng
+          bào dân tộc nơi đây. Tuy vậy, chúng ta quen dùng lịch dương nên việc
+          tính đúng ngày các phiên chợ diễn ra tính theo lịch mặt trăng khá khó
+          khăn. Vì thế nếu lên Hà Giang và tình cờ gặp một trong những phiên chợ
+          dưới đây thì bạn sẽ là người khá may mắn. Chợ lùi Phố Cáo (qua Yên
+          Minh gần tới Phó Bảng, họp vào ngày Thìn và Tuất) – Chợ lùi Phố Bảng
+          (ngã 3 Sủng Là đi vào, họp vào ngày Tý và Ngọ) – Chợ lùi Sà Phìn (ngay
+          gần dinh họ Vương, họp vào ngày Tỵ và Hợi) – Chợ lùi Lũng Phìn (họp
+          vào ngày Dần và Thân). Các phiên chợ đều họp từ sớm và sẽ kết thúc vào
+          xế trưa, hàng quán được bày bán thành các khu khác nhau đa dạng như:
+          váy áo thổ cẩm, rau quả, thuốc Bắc, đồ ăn, giày dép, lợn cắp nách, chó
+          của người Mông,… Ngoài ra còn có chợ Đồng Văn ở thị trấn Đồng Văn, chợ
+          diễn ra vào mỗi chủ nhật hàng tuần. Khu chợ Đồng Văn được xây bằng đá
+          trong những năm 1920 do vậy tới nay đã mang nhiều nét cổ kính, xưa cũ
+          góp phần thêm vào sự mộc mạc cho phố cổ Đồng Văn. Chợ cũng bày bán các
+          mặt hàng như: vải, khăn của người Mông, áo chàm của người Tày, hồi,
+          quế, dép, giày, các loại rau quả, đồ ăn như thắng cố, xôi ngũ sắc,
+          bánh rán, bánh tam giác mạch, bánh ngô, và đặc biệt là khu rượu ngô có
+          một dãy dài. Ngoài ra còn chợ Tình Khâu Vai ở Mèo Vạc, nhưng mình thấy
+          chợ đã không còn được đẹp như ngày trước nữa, bạn nào đi vào dịp 27
+          tháng 3 âm lịch hàng năm thì ghé qua cho biết.
+        </p>
+
+        <h4>9. Hoàng Su Phì</h4>
+
+        <p>
+          Khoảng tháng 5 (mùa nước đổ) hoặc tháng 9 (mùa lùa chín) đều là thời
+          điểm tuyệt đẹp để du lịch Hoàng Su Phì. Đến Hà Giang bạn có thể thuê
+          xe máy ở thành phố và và dong duổi đến Hoàng Su Phì. Tại Hoàng Su Phì
+          ruộng bậc thang bắc lên tận mây trời, lác đác xen các thửa ruộng vàng
+          óng là những mái nhà dân tộc ẩn trong lùm cây. Mỗi chiều khi hoàng hôn
+          buông xuống, sắc mây trời quện với khói bếp tỏa ra từ mái nhà sàn
+          khiến cảnh sắc nơi đây bình yên, mộc mạc nhưng hùng vĩ tới khó tả. Khu
+          vực nhiều lúa nhất ở Hoàng Su Phì là: Bản Luốc, Bản Phùng, Sán Sả Hồ,
+          Nậm Ty, Hồ Thầu và Thông Nguyên.
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/du-lich-ha-giang.hoang_.sung_.phi_.jpg"
+          alt=""
+        />
+        <h4>10. Núi Cấm Sơn</h4>
+
+        <p>
+          Ngọn núi nằm ngay gần TP. Hà Giang, gần đường 19-5. Đường lên núi có
+          suối Thanh Long, suối Tiên,.. dòng suối nước chảy quanh năm, mát lạnh.
+          Trên núi có hồ nước lớn và hang động như: hang Ông Thẻ, hang ông Hổ,
+          Động thủy Tiên, .. Du lịch Hà Giang bạn có thể tắm lá thuốc người Dao,
+          thưởng thức ẩm thực của Hà Giang: cháo thuốc độc, bánh cuốn Đồng Văn,
+          thắng cố, bánh tam giác mạch, rượu tam giác mạch, rượu ngô, cá suối,
+          gà đồi, thịt lợn cắp nách,… Thời gian tuyệt đẹp nhất khi tới Hà Giang
+          là mùa Hoa Tam Giác Mạch, từ tháng 10 đến giữa tháng 11. Đây cũng là
+          dịp đông du khách nên các bạn cần chuẩn bị đặt phòng sớm nếu muốn có
+          phòng nghỉ tốt.
+        </p>
+
+        <p>
+          Trên đây là tuyển tập top 10 địa điểm du lịch Hà Giang – đẹp nhất mà
+          bạn nên dành thời gian thăm quan. Chúc các bạn có 1 chuyến đi vui vẻ .
+        </p>
+
+        <img
+          src="https://toidi.net/wp-content/uploads/2016/09/hoa-tam-giac-mach-ha-giang.jpg"
+          alt=""
+        />
+
+        <p>Hoa Tam Giác Mạch</p>
+      </div>
+    </div>
+  </body>
+</html>
